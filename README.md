@@ -1,1 +1,1 @@
-# curso de typescript
+# curso de typescriptd
