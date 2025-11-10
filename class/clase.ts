@@ -12,7 +12,7 @@ export class Persona {
     //metodos
     public saludar(): string {
         const isDev =  this.obtenerDev()
-        return `Datos del usuario: ${this.nombre}-${this.edad}-${isDev}`;
+        return `Nombre:${this.nombre}  EDAD:${this.edad} Y ${isDev ? "si" : "no"} ES DESARROLLADOR`;
     }
 
     protected obteneredad(): number{

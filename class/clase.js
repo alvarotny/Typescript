@@ -11,7 +11,7 @@ var Persona = /** @class */ (function () {
     //metodos
     Persona.prototype.saludar = function () {
         var isDev = this.obtenerDev();
-        return "Datos del usuario: ".concat(this.nombre, "-").concat(this.edad, "-").concat(isDev);
+        return "Nombre:".concat(this.nombre, "  EDAD:").concat(this.edad, " Y ").concat(isDev ? "si" : "no", " ES DESARROLLADOR");
     };
     Persona.prototype.obteneredad = function () {
         return this.edad;

@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "outDir": "../public/scripts", // Directorio donde se guardaran los archivos compilados
+    "target": "es6", // version de javascript a compilar
+    "module": "commonjs",
+    "strict": true
+  }
+}
