@@ -10,7 +10,7 @@
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
     "isolatedModules": true,
-    "experimentalDecorators": true,
+    "experimentalDecorators": true, //interaccion entre angular y typescript mediante los decoradores
     "importHelpers": true,
     "target": "ES2022",
     "module": "preserve"

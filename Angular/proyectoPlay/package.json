@@ -1,7 +1,10 @@
+//Angular realiza la compilacion mediantes sus propias lineas de comando//
 {
   "name": "proyecto-play",
   "version": "0.0.0",
+  
   "scripts": {
+
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",

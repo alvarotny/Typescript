@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "lib": ["ES5","DOM","ES2015.Promise"],
+        "module": "commonjs",
+        "esModuleInterop": true, //interoperable -> compatible
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "skipLibCheck": true
+    }
+}
